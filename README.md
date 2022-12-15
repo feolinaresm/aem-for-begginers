@@ -133,3 +133,19 @@ The project comes with the auto-public repository configured. To setup the repos
   CQ_PORT=4503 CQ_RUNMODE=publish ./start )
 - `If the below ones does not works then try in debbug mode:` (java -Xms1024m -Xmx2048m -agentlib:jdwp=transport=dt_socket,address=8486,server=y,suspend=n -jar aem-author-4502.jar -gui)
 - `Uploading packages with mvn:` (mvn clean install -PautoInstallSinglePackage -DskipTests)
+
+## Core Components
+- The core components are those made by Adobe to allow us to use some of the most common in a AEM project
+- They sre great since allow the project to speed up
+- Reduce the maintenance cost of the project
+- Some of their features are:
+  - Ready for production
+  - Cloud compatibles
+  - SEO Friendly
+  - Customizable
+  - Open source
+- How to use them?
+  - Download and install
+  - Create proxy component (We use them to above content refactoring when gets an update)
+  - Load the core styles
+  - Enable by using the template policies and use

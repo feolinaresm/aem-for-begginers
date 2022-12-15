@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:allowedTemplates="[/conf/MySite/settings/wcm/templates/(?!xf-).*]"
+        cq:conf="/conf/MySite"
+        cq:redirectTarget="/content/MySite/us/en"
+        cq:template="/conf/MySite/settings/wcm/templates/spa-app-template"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Learning AEM"
+        sling:configRef="/conf/MySite"
+        sling:redirect="{Boolean}true"
+        sling:redirectStatus="{Long}302"
+        sling:resourceType="MySite/components/page">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+    <us/>
+</jcr:root>
